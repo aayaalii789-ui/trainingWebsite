@@ -1,0 +1,202 @@
+.nav{
+    padding:0%;
+    background-color:rgba(13, 11, 16, 0.369)/*أسود شفاف*/;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+.nav div{
+    display:flex;
+    
+    gap: 2px;
+}
+a
+{
+   
+  text-decoration: none;
+  font-size:16px;
+  color: rgb(3, 13, 9);
+  padding:2px 5px ; 
+  border-radius:7px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  position: center;
+  transition: all0.7s ease;
+  display: inline-block;
+  
+  
+
+  
+}
+.dropDown{
+    padding:20px;
+    position: absolute;
+    top: 150%;
+    border-radius: 5%;
+    box-shadow: 0 0 20px #9eede4;
+    width:100px;
+    display: flex;
+    flex-direction: column;
+   background: #8df3e77d;
+   align-items: normal;
+   left:75%;
+   display: none;
+   transition: 0.5s;
+   visibility:hidden;
+    opacity: 0;
+   
+   
+}
+div.options:hover > .dropDown{
+     visibility:visible;
+    opacity: 1;
+    top:70%;
+    right: 40%;
+   
+   transition: 0.7s;
+    background: #0f16160f;
+   box-shadow: #3d6b65d1;
+   
+}
+div.options:hover > .dropDown .list1:hover .dropDown{
+       visibility:visible;
+    opacity: 1;
+    top:65%;
+     left:40%;
+      transition: 0.7s;
+   background: #9fb9b9c4;
+   box-shadow: #2d504cd1;
+   
+
+}
+div.options:hover > .dropDown .list2:hover .dropDown{
+
+     visibility:visible;
+    opacity: 1;
+    top:85%;
+     left:40px;
+      transition: 0.7s;
+   background: #9fb9b9c4;
+   box-shadow: #2d504cd1;
+}
+
+ 
+
+.dropDown .list{
+    padding:5px;
+    position: relative;
+    
+}
+
+a:hover{
+
+    padding:3% 13;
+    background: rgba(84, 82, 82, 0.286);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div .objective{
+ 
+grid-template-columns: 100%;
+    
+   
+   
+display: flex;
+gap: 30px;
+    align-items: center;
+  
+  line-height:2px;
+}
+.back-video{
+  position: fixed;
+  right:50%;
+  bottom: 0;
+  min-width: 50%;
+  min-height: 40%;
+  width: auto;
+  z-index: -1000;
+  object-fit: cover;
+
+}
+
+
+
+span{
+   padding:0 3% 0 0 ;
+    display: flex;
+    align-items: center;
+    
+   direction: rtl;
+     color:rgb(42, 157, 157);
+  padding-top:5%;
+  font-weight: 700;
+  padding-bottom:5% ;
+  font-size:200%;
+  line-height:2px;
+  
+ 
+ 
+}
+.back img{
+  width: 100%;
+}
+p{
+  padding: 1%;
+  direction: rtl;
+  font-size: 150%;
+  font-weight: 700;
+  color: #151f4a;
+  background: #2f46433a;
+  box-shadow: 0 0 30px 8px #54e7d1;
+  border-radius: 10px 80px 10px 80px;
+  line-height:200%;
+  text-align: center;
+  
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  .dropDown{
+    padding:20px;
+    position: absolute;
+    top: 150%;
+    border-radius: 5%;
+    box-shadow: 0 0 20px #9eede4;
+    width:100px;
+    display: flex;
+    flex-direction: column;
+   background: #8df3e77d;
+   align-items: normal;
+   left:50%;
+   display: none;
+   transition: 0.5s;
+   visibility:hidden;
+    opacity: 0;
+   
+   
+}
+
+
+
+}
