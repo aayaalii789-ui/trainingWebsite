@@ -310,7 +310,7 @@ h3{
   direction: rtl;
   color:rgb(182, 238, 238);
  
-  font-size:100%;
+  font-size:8px;
   line-height: 1.0px;
  
 
@@ -387,7 +387,7 @@ h4{
 
 
 .card div b{
-    font-size:18px;
+    font-size:8px;
     text-align: center;
    letter-spacing: 3px;
 
@@ -439,7 +439,7 @@ video{
 .content{
     padding: 2%;
     direction: rtl;
-    font-size: 150%;
+    font-size: 8px%;
     font-weight: 700;
     color: #9eede4;
     line-height:200%;
