@@ -108,9 +108,9 @@ a
 {
    
   text-decoration: none;
-  font-size:13px;
+  font-size:8px;
   color: rgb(3, 13, 9);
-  padding:15px 12px ; 
+  padding:10px 8px ; 
   border-radius:7px;
   padding-top: 1%;
   padding-bottom: 0.5%;
@@ -575,7 +575,7 @@ video{
   
   color:rgb(12, 45, 56);
   padding-top: 0.1%;
-  font-size:14px;
+  font-size:10px;
   line-height:15px;
   text-align: center ;
   font-weight: bold;
@@ -589,7 +589,7 @@ video{
   color:rgb(12, 45, 56);
      padding: 1%;
   padding-top: 0.1%;
-  font-size:14px;
+  font-size:10px;
   line-height:15px;
   text-align: center ;
   font-weight: bold;
@@ -696,7 +696,7 @@ h4{
   direction: rtl;
   color:rgb(182, 238, 238);
   line-height: 1.0px;
-  font-size:10px;
+  font-size:6px;
 }
 .container{
     display: flex;
@@ -759,7 +759,7 @@ h4{
 
 
 .card div b{
-    font-size:14px;
+    font-size:10px;
     text-align: center;
    letter-spacing: 3px;
 
