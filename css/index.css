@@ -381,9 +381,6 @@ h4{
          
 
 }
-.card div:hover{
-     background-color: #dfeefc;
-}
 
 
 .card div b{
@@ -404,18 +401,11 @@ h4{
 
 
 }
-.card div b:hover{
 
-     background: #b4eded48;
-      color: #1f4242;
-}
 .card div p{
  font-size:8px;
 }
-.card div p:hover{
-     background: #cbfafa48;
 
-}
 
 
 
@@ -439,7 +429,7 @@ video{
 .content{
     padding: 2%;
     direction: rtl;
-    font-size: 8px%;
+    font-size: 8px;
     font-weight: 700;
     color: #9eede4;
     line-height:200%;
