@@ -653,7 +653,7 @@ h1{
    direction: rtl;
      color:rgb(112, 224, 224);
   padding-top:2%;
-  font-size:30px;
+  font-size:25px;
   line-height:2px;
  
  
@@ -668,7 +668,7 @@ h2{
    direction: rtl;
      color:rgb(5, 9, 11);
  
-  font-size:25px;
+  font-size:20px;
   line-height: 0.1px;
 
 }
@@ -715,13 +715,13 @@ h4{
      background-color: #b6d3f0;
     border-radius:10px;
    
-
+ box-shadow: 0 0 30px 8px #cdde34d1;
 
 }
 .card:hover{
    
       width: 50%;
-    box-shadow: 0 0 30px 8px #cdde34d1;
+   
     border: 3px solid #deff09;
      background-color: #e3eef7;
     border-radius:10px;
