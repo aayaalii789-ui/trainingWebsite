@@ -693,7 +693,7 @@ h4{
   direction: rtl;
   color:rgb(182, 238, 238);
   line-height: 1.0px;
-  font-size:5px;
+  font-size:4px;
 }
 .container{
     display: flex;
@@ -834,7 +834,7 @@ a
 {
    
   text-decoration: none;
-  font-size:5px;
+  font-size:8px;
   color: rgb(3, 13, 9);
   padding:7px 5px ; 
   border-radius:7px;
