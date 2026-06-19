@@ -614,7 +614,7 @@ div.details{
     grid-template-columns: 100%;
     
    
-    padding: 2px ;
+    padding: 3px ;
     display: flex;
     gap:5px;
     align-items: center;
