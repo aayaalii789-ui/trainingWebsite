@@ -197,6 +197,34 @@ p{
    
 }
 
-
-
+span{
+   padding:0 3% 0 0 ;
+    display: flex;
+    align-items: center;
+    
+   direction: rtl;
+     color:rgb(42, 157, 157);
+  padding-top:5%;
+  font-weight: 700;
+  padding-bottom:5% ;
+  font-size:10px;
+  line-height:2px;
+  
+ 
+ 
+}
+p{
+  padding: 1%;
+  direction: rtl;
+  font-size: 10px;
+  font-weight: 700;
+  color: #151f4a;
+  background: #2f46433a;
+  box-shadow: 0 0 30px 8px #54e7d1;
+  border-radius: 10px 80px 10px 80px;
+  line-height:200%;
+  text-align: center;
+  
+  
+}
 }
